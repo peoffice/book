@@ -45,6 +45,13 @@
 > 8. 灵活
 
 ##### 3.开始使用Spring Cloud实战微服务
+* 技术储备
+> 1. 语言基础：Java
+> 2. Spring Boot：轻量级微服务框架
+> 3. 项目管理与构建工具：Maven或Gradle
+* Spring Boot Actuator
+> Spring Boot Actuator提供了很多监控端点。可使用http://{ip}:{port}/{endpoint}的形式访问这些端点
+
 ##### 4.微服务注册与发现
 ##### 5.使用Ribbon实现客户端负载均衡
 ##### 6.使用Feign实现声明式REST调用
@@ -56,4 +63,3 @@
 ##### 12.Docker入门
 ##### 13.将微服务运行在Docker上
 ##### 14.使用Docker Compose编排微服务
-
