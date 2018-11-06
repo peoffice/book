@@ -53,6 +53,13 @@
 > Spring Boot Actuator提供了很多监控端点。可使用http://{ip}:{port}/{endpoint}的形式访问这些端点
 
 ##### 4.微服务注册与发现
+* 服务发现组件具备：
+> 1. 服务注册表
+> 2. 服务注册与服务发现
+> 3. 服务检查
+> 4. Eureka、Consul和Zookeeper
+* Eureka
+
 ##### 5.使用Ribbon实现客户端负载均衡
 ##### 6.使用Feign实现声明式REST调用
 ##### 7.使用Hystrix实现微服务的容错处理
