@@ -60,7 +60,7 @@
 > 4. Eureka、Consul和Zookeeper
 * Eureka
 > 1. Eureka High Level Architecture 
-> ![Eureka High Level Architecture](spring_cloud_docker_microservices_images\eureka_high_level.png)
+> ![Eureka High Level Architecture](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/eureka_high_level.png)
 
 ##### 5.使用Ribbon实现客户端负载均衡
 
