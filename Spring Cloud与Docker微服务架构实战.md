@@ -63,6 +63,11 @@
 > ![Eureka High Level Architecture](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/eureka_high_level.png)
 
 ##### 5.使用Ribbon实现客户端负载均衡
+* Ribbon
+> 1. Ribbon是Netflix发布的负载均衡器，它有助于控制HTTP和TCP客户端的行为。
+> 2. 为Ribbon配置服务提供者地址列表之后，Ribbon就可以基于某种负载均衡算法，自动地帮助服务消费者去请求
+> 3. 使用架构图
+> ![使用架构图](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/ribbon_load_balance.png)
 
 ##### 6.使用Feign实现声明式REST调用
 ##### 7.使用Hystrix实现微服务的容错处理
