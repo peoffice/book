@@ -70,6 +70,8 @@
 > ![使用架构图](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/ribbon_load_balance.png)
 
 ##### 6.使用Feign实现声明式REST调用
+* Feign
+> Feign是Netflix开发的声明式、模板化的HTTP客户端，其灵感来自Retrofit、JAXRS-2.0以及WebSocket等
 ##### 7.使用Hystrix实现微服务的容错处理
 ##### 8.使用Zuul构建微服务网关
 ##### 9.使用Spring Cloud Config统一管理微服务配置
