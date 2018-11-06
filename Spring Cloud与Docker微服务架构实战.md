@@ -59,8 +59,11 @@
 > 3. 服务检查
 > 4. Eureka、Consul和Zookeeper
 * Eureka
+> 1. Eureka High Level Architecture 
+> ![Eureka High Level Architecture](spring_cloud_docker_microservices_images\eureka_high_level.png)
 
 ##### 5.使用Ribbon实现客户端负载均衡
+
 ##### 6.使用Feign实现声明式REST调用
 ##### 7.使用Hystrix实现微服务的容错处理
 ##### 8.使用Zuul构建微服务网关
