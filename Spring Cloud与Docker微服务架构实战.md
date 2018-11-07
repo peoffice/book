@@ -144,7 +144,11 @@
 > 2. 主要功能是收集系统的时序数据，从而追踪微服务架构的系统延时等问题
 
 ##### 11.使用Spring Cloud常见问题与总结
+
 ##### 12.Docker入门
+* Docker架构图
+> ![ Docker架构图](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/docker.png)
+
 ##### 13.将微服务运行在Docker上
 ##### 14.使用Docker Compose编排微服务
 
