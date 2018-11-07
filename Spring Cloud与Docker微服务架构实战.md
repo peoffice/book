@@ -150,6 +150,20 @@
 > ![ Docker架构图](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/docker.png)
 
 ##### 13.将微服务运行在Docker上
+* Docker常用指令
+> 1. Add复制文件
+> 2. ARG设置构建参数
+> 3. CMD容器启动命令
+> 4. COPY复制文件
+> 5. EnTRYPOINT入口点
+> 6. ENV设置环境变量
+> 7. EXPOSE声明暴露的端口
+> 8. FROM指定基础镜像
+> 9. LABEL为镜像添加元数据
+> 10. MAINTAINER指定维护者的信息
+> 11. RUN执行命令
+> 12. USER设置用户
+
 ##### 14.使用Docker Compose编排微服务
 
 
