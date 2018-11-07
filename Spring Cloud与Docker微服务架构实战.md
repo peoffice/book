@@ -120,6 +120,29 @@
 > ![ Spring Cloud Config架构图](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/spring_cloud_config.png)
 
 ##### 10.使用Spring Cloud Sleuth实现微服务跟踪
+* 微服务跟踪的原因（分布式计算的八大误区）
+> 1. 网络可靠
+> 2. 延迟为零
+> 3. 带宽无限
+> 4. 网络绝对安全
+> 5. 网络拓扑不会改变
+> 6. 必须有一名管理员
+> 7. 传输成本为零
+> 8. 网络同质化
+* Spring Cloud Sleuth术语
+> span（跨度）基本工作单元
+> trace(跟踪)：一组共享“root span”的span组成的树状结构称为trace
+> annotation(标注)：用来记录事件的存在
+>> CS(Client Sent客户端发送)
+>> SR（Server Received服务端接收）
+>> SS(Server Sent服务端发送)
+>> CR（Client Received客户端接收）
+* ELK
+> 一款非常流行的日志分析系统
+* Zipkin
+> 1. Twitter开源的分布式跟踪系统，基于Dapper的论文设计而来
+> 2. 主要功能是收集系统的时序数据，从而追踪微服务架构的系统延时等问题
+
 ##### 11.使用Spring Cloud常见问题与总结
 ##### 12.Docker入门
 ##### 13.将微服务运行在Docker上
