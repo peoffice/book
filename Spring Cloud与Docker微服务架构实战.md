@@ -163,8 +163,47 @@
 > 10. MAINTAINER指定维护者的信息
 > 11. RUN执行命令
 > 12. USER设置用户
+> 13. VOLUMN指定挂载点
+> 14. WORKDIR指定工作目录
+> 15. 其他：STOPSINGAL,HEALTHCHECk,SHELL等
 
 ##### 14.使用Docker Compose编排微服务
+* Docker Compose
+> Compse是一个用于定义和运行多容器Docker应用程序的工具，前身是Fig。它非常适合用在开发、测试、构建CI工作流等场景
+* Docker Compose基本步骤
+> 1. 使用Dockerfile（或其他方式）定义应用程序环境，以便在任何地方重现该环境
+> 2. 在docker-compose.yml文件中定义组成应用程序服务，以便各个服务在一个隔离的环境中运行
+> 3. 运行docker-compose up命令，启动并运行整个应用程序
+* docker-compose.yml常用命令
+> 1. build：配置构建时的选项，Compose会利用它自动构建镜像
+> 2. command：覆盖容器启动后默认执行的命令
+> 3. dns：配置dns服务器
+> 4. dns_search：配置DNS的搜索域，可以是一个值，也可以是一个列表
+> 5. environment：环境变量设置，可使用数组或字典两种方式
+> 6. env_file：从文件中获取环境变量，可指定一个文件路径或路径列表
+> 7. expose：暴露端口，只将端口暴露给连接的服务，而不暴露给宿主机
+> 8. external_links：连接到docker-compose.yml外部的容器，甚至并非Compose管理的容器，特别是提供共享或公共服务的容器
+> 9. image：指定镜像名称或镜像ID
+> 10. links：连接到其他服务的容器。
+> 11. networks
+> 12. network_mode：设置网络模式
+> 13. ports：暴露端口信息
+> 14. volumes：卷挂载路径设置
+> 15. volume_from：从另一个服务或容器挂载卷
+* docker-compose常用命令
+> 1. build：构建或重新构建服务
+> 2. help：查看指定命令的帮助文档
+> 3. kill：通过发送SIGKILL信号停止指定服务的容器
+> 4. logs：查看服务的日志输出
+> 5. port：打印绑定的公共端口
+> 6. ps：列出所有容器
+> 7. pull：下载服务镜像
+> 8. rm：删除指定服务的容器
+> 9. run：在一个服务上执行一个命令
+> 10. scale：设置指定服务运行的容器的个数，以service=num的形式指定
+> 11. start：启动指定服务以存在的容器
+> 12. stop：停止以运行的容器
+> 13. up：构建、创建、重新创建、启动、连接服务的相关容器，所有连接的服务都会启动，除非它们已经运行
 
 
 
