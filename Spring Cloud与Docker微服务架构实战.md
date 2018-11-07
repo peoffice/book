@@ -105,10 +105,19 @@
 > 7. 多区域弹性
 
 
-
-
-
 ##### 9.使用Spring Cloud Config统一管理微服务配置
+* 微服务的配置管理需求
+> 1. 集中管理配置：一个使用微服务架构的应用系统可能会包含成百上千个微服务，因此需要集中管理配置
+> 2. 不同环境不同配置
+> 3. 运行期间可动态调整
+> 4. 配置修改后可自动更新
+
+* Spring Cloud Config
+> 1. Spring Cloud Config为分布式系统外部化配置提供了服务器端和客户端的支持，它包括Config Server和Config Client部分
+> 2. Config Server是一个可横向扩展、集中式的配置服务器，它用于集中管理应用程序各个环境下的配置，默认使用Git存储配置内容
+> 3. Config Client是Config Server的客户端，可用于操作存储在Config Server中的配置属性
+> 4. Spring Cloud Config架构图
+> ![ Spring Cloud Config架构图](https://github.com/peoffice/book/blob/master/spring_cloud_docker_microservices_images/spring_cloud_config.png)
 
 ##### 10.使用Spring Cloud Sleuth实现微服务跟踪
 ##### 11.使用Spring Cloud常见问题与总结
